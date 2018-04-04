@@ -1,0 +1,17 @@
+import sys
+name=raw_input()
+index=raw_input()
+index=int(index)
+str=raw_input()
+length=len(str)
+length1=len(name)
+i=0
+while i<index:
+	sys.stdout.write(str[i])
+	i=i+1
+sys.stdout.write("LUISS")
+j=index+length1
+while j<length:
+	sys.stdout.write(str[j])
+	j=j+1
+sys.stdout.write("\n")
